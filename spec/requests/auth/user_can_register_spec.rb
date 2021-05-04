@@ -1,7 +1,7 @@
 RSpec.describe 'POST /api/auth', type: :request do
   describe 'successful registration' do
     before do
-      post '/api/auth',
+      post '/api/authh',
       params: {
         email: "user@email.com",
         password: "password",
